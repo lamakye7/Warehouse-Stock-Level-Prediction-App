@@ -17,31 +17,7 @@ More details about the program can be assessed [here](https://www.theforage.com/
 * [Certificate](#cf)
 
 
-<br>
 
-## Installing Packages<a name="ip"></a>
-<p style='text-align:justify;'>To run the jupyter notebook on your localhost, I recommend you install the packages I used for this project. You can do that by;</p>
-
-1. Download the requirements.txt file and save it into the directory you'll be working from.
-2. Create a conda environment with python 3.*
-
-	```python
-
-	conda create --name env-name python==3.7
-	```
-3. Now install the packages from the requirements.txt file. Make sure you're in folder that has the file.
-
-	```python
-
-	pip install requirements.txt
-	```
-4. Finally, activate the environment and run the downloaded jupyter notebook
-
-	```python
-
-	conda activate env-name
-	```
-<br>
 
 ## Business Problem<a name="bp"></a>
 <details>
@@ -68,27 +44,17 @@ This repository contains one Jupyter notebook that has all the code for data cle
 <br>
 
 ## Methodology<a name="md"></a>
-<details>
-	<summary>Data Quality Assessment</summary>
-	<br>
-	<p style='text-align:justify;'>The first task that I performed under the data preparation step was initial assessment of the quality of data which easily allowed me to properly clean the data. The following were some of the issues discovered;</p>
-	<ul>
-		<li>Missing values in some of the columns with 2 of those columns having missing values above 40%.</li>
-		<li>Discovered some columns will not be needed for the analysis.</li>
-		<li>Some of the data types were not properly formatted including the date.</li>
-		<li>Spatial coordinates needed to be separated.</li>
-	</ul>
-</details>
 
 <details>
 	<summary>Data Cleaning and Preprocessing</summary>
 	<br>
 	<p style='text-align:justify;'>In the preprocessing step (usually an iterative process) I cleaned the data based on data quality issues identified. Some of           the task I performed in this step include;</p>
 	<ul>
-		<li>Handling missing values</li>
+		<li>Merging datasets</li>
 		<li>Dropping unneeded columns</li>
 		<li>Proper date formatting</li>
-		<li>Splitting of spatial data(longitude and latitude column)</li>
+		<li>Handling missing values</li>
+		<li>Removing outliiers</li>
 	</ul>
 </details>
 

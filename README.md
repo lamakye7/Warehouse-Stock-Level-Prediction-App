@@ -99,15 +99,19 @@ One of the goals for this project as mentioned earlier was to segment dataset an
 
 <p>&nbsp;</p>
 	
-To achieve the first goal, I answered a few questions using both quantitative and graphical methods. Some of the questions are listed below.
-	
-* Are males performing more transactions as compared to females?
-* What is the average spending by the customers?
-* Are most of the transactions authorized?
-* Between males and females, who spends a lot?
-* Which suburb do most of the transactions take place?
-* How does spending vary with state?
-* How did the average amount spent by customers changed over time ( days, weeks)?	
+To achieve the first goal, we will try to answer the questions listed below:
+
+* What is the distribution of the numerical dtype?
+* What is the distribution of the categorical columns?
+* How does the trend for stock level and total sale differ per hour?
+* What is the total quantity sold per category?
+* What is the total sales per category?
+* What is the average sale per product category?
+* What is the average spending per customer type?
+* What is the average transaction per payment type?
+* What is the hourly trend of sale recorded for each day?
+* What are the top products by sales amount and quantity sold?
+* What is the distribution of each product category sold per each day and hour?
 </details>
 
 

@@ -1,11 +1,11 @@
 # Warehouse-Stock-Level-Prediction-App
 
 
-<p> <b>Data@ANZ</b> is about mining and linking datasets to develop stories that matter and challenge the status quo, to deliver on ANZ’s purpose `to shape a world where people and communities thrive`. This virtual internship seeks to equip young professionals with data analytics and predictive modeling skills that can be implemented in most organizations.
-
-Further details about the program can be assessed [here](https://www.theforage.com/virtual-internships/prototype/ZLJCsrpkHo9pZBJNY/ANZ-Virtual-Internship?ref=tCfFoXSNJ4aLnBQye)</p> 
-- The program consists of 2 modules.
-- The files in this repository are only my submitted files.
+<p> <b>Cognizant</b> Cognizant operationalizes AI to reliably deliver efficiency, innovation and agility. The virtual internship seeks to equip young professionals Artificial Intelligence(AI) skills.
+	
+More details about the program can be assessed [here](https://www.theforage.com/virtual-experience/5N2ygyhzMWjKQmgCK/cognizant/cognizant-artificial-intelligence-virtual-experience-program/model-building-and-interpretation)</p> 
+- The program consists of 5 tasks
+  
 
 <br>
 

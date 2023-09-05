@@ -10,8 +10,7 @@ More details about the program can be assessed [here](https://www.theforage.com/
 <br>
 
 ## Table of Contents
-* [Installing Packages](#ip)
-* [Project Motivation](#pm)
+* [Business Problem](#bp)
 * [File Description](#fd)
 * [Methodology](#md)
 * [Results](#re)
@@ -44,21 +43,20 @@ More details about the program can be assessed [here](https://www.theforage.com/
 	```
 <br>
 
-## Project Motivation<a name="pm"></a>
+## Business Problem<a name="bp"></a>
 <details>
 	<summary>Problem Statement</summary>
 	<br>
-	<p style='text-align:justify;'>ANZ has a synthesised transaction dataset containing 3 months’ worth of transactions for 100 hypothetical customers. It contains purchases, recurring transactions, and salary transactions. Based on this dataset, ANZ will want to understand the behaviours of their customers and how transactions are undertaken by each hypothetical customer and finally, be able to predict the annual salary of their present and potential customers.</p>
+	<p style='text-align:justify;'>Gala Groceries is a technology-led grocery store chain based in the USA. Gala Groceries approched Cognizant to help them solve supply chain issue. Groceries are highly perishable items, if you overstock, you are wasting money on excessive storage and waste, but if you understock, then you are losing customers. Gala Groceries want to understand sale pattern and finally able to predict the stock levels of products, on an hourly basis in order to more intelligently procure products from their suppliers.</p>
 
 </details>
 
 <details>
 	<summary>Project Goals</summary>
 	<br>
-	<p>In this project, I wanted to achieve 2 main goals and they are;</p>
 	<ol>
-		<li>Segment dataset and draw unique insights, including visualization of the transaction volume and assessing the effect of any outliers.</li>
-		<li>Explore correlation between customer attributes and build a regression and a decision-tree prediction model based on your findings.</li>
+		<li>Draw unique insights from sale pattern, through Exploration Data Analysis .</li>
+		<li>Build a predictive model to predict the hourly stock level.</li>
 	</ol>
 </details>
 

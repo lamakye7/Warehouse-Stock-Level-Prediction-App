@@ -118,7 +118,7 @@ To achieve the first goal, we will try to answer the questions listed below:
 <details>
 <summary>Statistical Analysis</summary>
 <br>
-For this task I further looked into the question that was asked about the spending habit of customers based on their gender. I found out that the number of male customers performed a lot of debit transactions than their female counterparts. I therefore needed to clearly conclude without any doubt that males spend more than females and that the difference is not due to chance. To do this I performed hypothesis testing(Welch's t-Test) to draw conclusion on the result.
+To ascertain that the  different in the average sale amount between customers who use credit cards and customers who use cash and the estimated_stock_pct of hour with sale activities greater than hour without sale activities for specific product do not occur by chance. To do this I performed hypothesis testing(Welch's t-Test) to draw conclusion on .
 </details>
 
 <details>

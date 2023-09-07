@@ -18,15 +18,15 @@ More details about the program can be assessed [here](https://www.theforage.com/
 * [Certificate](#cf)
 
 ## Installing Packages<a name="ip"></a>
-<p style='text-align:justify;'>To run the jupyter notebook on your localhost, I recommend you install the packages I used for this project. You can do that by;</p>
+<p style='text-align:justify;'>To run the jupyter notebook on your localhost, I recommend you install the packages I used for this project.</p>
 
 1. Download the requirements.txt file and save it into the directory you'll be working from.
 2. Create a conda environment with python 3.*
 
 	```python
 
-	conda create --name env-name python==3.11
-	```
+	conda create --name env-name python == 3.11
+	``
 3. Now install the packages from the requirements.txt file. Make sure you're in folder that has the file.
 
 	```python

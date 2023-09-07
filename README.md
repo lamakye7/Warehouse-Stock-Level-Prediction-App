@@ -157,4 +157,4 @@ In conclusion, I have been able to achieved the 2 main goals and have also teste
 <br>
 
 ## Certificate<a name="cf"></a> 
-[Earned Certificate](https://insidesherpa.s3.amazonaws.com/completion-certificates/ANZ/ZLJCsrpkHo9pZBJNY_ANZ_tCfFoXSNJ4aLnBQye_completion_certificate.pdf)
+[Earned Certificate](https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Cognizant/5N2ygyhzMWjKQmgCK_Cognizant_yGigRCTSMZXe4hwJC_1694084970565_completion_certificate.pdf)

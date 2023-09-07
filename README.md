@@ -100,7 +100,7 @@ To complete this task I went through the various machine learning steps which in
 	
 * Data Splitting - I split data to training set and test set to 80:20 ratio
 * Standardization - I stardardized the dataset using `StandardScaler`
-* Model Training and Evaluation - In this step, I trained various algorithms on a standardized dataset using default parameters in 12-fold  
+* Model Training and Evaluation - In this step, I trained various algorithms on a standardized dataset using default parameters in 10-fold  
 * Hyperparameter Tuning - I performed model turning using GridSearch for the various algorithms, and the best model turned out to be __RandomForest Regressor__ 
 * Final Model - I build a final model using the optimized parameter after tuning the model. 
 * Model Visualization - I plot the feature importance from the model and also plotted the predicted values and actual for the  testset again time.

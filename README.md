@@ -48,12 +48,11 @@ This repository contains one Jupyter notebook that has all the code for data cle
 <details>
 	<summary>Data Cleaning and Preprocessing</summary>
 	<br>
-	<p style='text-align:justify;'>In the preprocessing step (usually an iterative process) I cleaned the data based on data quality issues identified. Some of           the task I performed in this step include;</p>
+	<p style='text-align:justify;'>. Some of the task I performed in this step include;</p>
 	<ul>
 		<li>Merging datasets</li>
 		<li>Dropping unneeded columns</li>
 		<li>Proper date formatting</li>
-		<li>Handling missing values</li>
 		<li>Removing outliiers</li>
 	</ul>
 </details>
@@ -61,8 +60,6 @@ This repository contains one Jupyter notebook that has all the code for data cle
 <details>
 <summary>Exploratory Data Analysis</summary>
 <br>
-One of the goals for this project as mentioned earlier was to segment dataset and draw unique insights, including visualization of the transaction volume and assessing the effect of any outliers. Based on this stated goal, I performed any set of anylysis on the cleaned data to obtain insights that helped me to arrive at some plausible conclusions. 
-
 <p>&nbsp;</p>
 	
 I provided answer to the following questions to draw insight from the dataset
@@ -90,12 +87,10 @@ To ascertain that the  different in the average sale amount between customers wh
 <details>
 <summary>Feature Selection and Engineering</summary>
 <br>
-The better I prapare the data for modeling, the better my model will perform. In this task, I properly prepared my data by transforming columns, dropping irrelevant columns, handling missing and categorical values and finally engineering new features. Some of the tasks I performed for this step include;	
+Some of the tasks I performed for this step include;	
 	
-* Creating and merging new features(annual salary, annual spending and spending ratio)
-* Grouped age of customers into bins as well as spending ration
-* Computed salary payment freuqency and monthly average salary
-* Dropped highly correlated features	
+* Creating new features from the categorical columns using `pd.get_dummies`
+	
 </details>
 
 <details>
@@ -103,19 +98,18 @@ The better I prapare the data for modeling, the better my model will perform. In
 <br>
 To complete this task I went through the various machine learning steps which includes;
 	
-* Data Loading - In this task I loaded the cleaned data that contained all the engineered features as well as the selected ones.
-* Data Understanding - In this step, I used both graphical and quantitative methods to explore the distributions and correlations between customer                attributes.
-* Data Splitting - I then went ahead and split the data into train and test data in readiness for modeling.
-* Algorithm Evaluation - In this step, I trained various algorithms on a standardized dataset using default parameters and 12-fold cross-validation. 
-* Parameter Tuning - The best model turned out to be Ridge Regressor which I later went ahead to tune its parameters for better performance using                   Grid Search.
-* Final Model - At this stage, the model was ready to make predictions. The model was able to predict the annual salaries of customers with RMSE of                  8660 and R-score of approximately 90%. 
-* Model Understanding -  I wanted to know how the trained model performed and what were the main drivers. I plotted the difference between the y-test and predictions and had a linear relationship which means the model did a good job at predicting the annual salaries.
+* Data Splitting - I split data to training set and test set to 80:20 ratio
+* Standardization - I stardardized the dataset using `StandardScaler`
+* Model Training and Evaluation - In this step, I trained various algorithms on a standardized dataset using default parameters in 12-fold  
+* Hyperparameter Tuning - I performed model turning using GridSearch for the various algorithms, and the best model turned out to be __RandomForest Regressor__ 
+* Final Model - I build a final model using the optimized parameter after tuning the model. 
+* Model Visualization - I plot the feature importance from the model and also plotted the predicted values and actual for the  testset again time.
 </details>
 
 <br>
 
 ## Results<a name="re"></a>
-At the end of this project, we were able to draw the following unique insights:
+At the end of this project, I was able to draw the following unique insights:
 
 * The distribution of `temperature` and `estimated_stock_pct` is normal distribution, this means the `mean` and the `median` are equal, and the data points are evenly distributed on both side of the `mean`
 * The distribution of `tota` and `unit_price` are positively skewed. This means that there are relatively fewer data points with extremely high values compared to the majority of data points, which tend to cluster toward the lower end of the distribution and also the `median` is lower than the `mean`
@@ -134,9 +128,9 @@ Base on the hypothesis test
 * You cannot conclude at the 5% significance level that There is a difference in the average sale amount between customers who use credit cards and customers who use cash.
 * You can conclude at the 5% significance level that the `mean estimated_stock_pct` of products with sale activities is greater than  the mean `estimated_stock_pct` of products without sale activities at specific time of the day.
 
-The final model gave `mean absolute error` (MAE) of 0.2195 which suggests that, on average, the model's predictions are off from the actual values by approximately 0.2195 units. We found out that `unit_price`, `temperature`, `total`, and `hour` of the day were more important in predicting stock level. We recommend that the the dataset needs to be further engineered, or more datasets need to be added.
+The final model gave `mean absolute error` (MAE) of 0.2195 which suggests that, on average, the model's predictions are off from the actual values by approximately 0.2195 units. I found out that `unit_price`, `temperature`, `total`, and `hour` of the day were more important in predicting stock level. I recommend that the the dataset needs to be further engineered, or more datasets need to be added.
 
-In conclusion, we have been able to achieved our 2 main goals and have also tested our inital hypothesis.
+In conclusion, I have been able to achieved the 2 main goals and have also tested the inital hypothesis.
 <br>
 
 ## Certificate<a name="cf"></a> 

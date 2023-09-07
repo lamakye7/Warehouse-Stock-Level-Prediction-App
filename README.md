@@ -65,7 +65,7 @@ One of the goals for this project as mentioned earlier was to segment dataset an
 
 <p>&nbsp;</p>
 	
-To achieve the first goal, we will try to answer the questions listed below:
+I provided answer to the following questions to draw insight from the dataset
 
 * What is the distribution of the numerical dtype?
 * What is the distribution of the categorical columns?
@@ -115,13 +115,28 @@ To complete this task I went through the various machine learning steps which in
 <br>
 
 ## Results<a name="re"></a>
-Based on the analysis I performed, below are the key insights I generated from the data; 
+At the end of this project, we were able to draw the following unique insights:
 
-* There were more authorized transactions, approximately 7600 in total as compared to posted transactions which was approximately 5000 in total. Having a lot of authorized transactions can increase customer frustration since they wull have to wait for some days before their transactions are completed. To ensure good customer services, it will be important to probe this transactions and find out where the blockers are.
-* Most of the transactions were performed by male customers as compared to females and the same reflects in the amount transacted as well. 
-* I was able to conclude that male customers were the bigger spenders with an average of 55 AUD as compared to 50 AUD for females. Also, based on the dataset I was 95% confident that male customers will spend between 28.2 AUD and 29.2 AUD on average and female customers will spend between 26.4 AUD and 27.4 AUD on average.
-* Sydney and Melbourne were the suburbs that saw a lot of transactions occuring. Which means that services such as ATM must run efficiently to meet customer demands.
- 
+* The distribution of `temperature` and `estimated_stock_pct` is normal distribution, this means the `mean` and the `median` are equal, and the data points are evenly distributed on both side of the `mean`
+* The distribution of `tota` and `unit_price` are positively skewed. This means that there are relatively fewer data points with extremely high values compared to the majority of data points, which tend to cluster toward the lower end of the distribution and also the `median` is lower than the `mean`
+* Fruit & vegetables are the 2 most frequently bought product categories 
+* Non-members & standard are the most frequent buyers within the store
+* Tuesday and Thursday are the two most frequent day for shopping 
+* Cash is the most frequently used payment method
+* The hour of 11 has the highest sale recorded and sale mostly drop from the hour of 11 to V-turn at hour of 15.
+* `Premium` customers have highest average spending. There is no slight difference in the average  spending amount of customers. Though `non-member` customers buy frequently, however the `average` spending of `premium` customer are higher than the average spending of `non-member`. 
+*  `Medicine` has the highest average total sales of `42.77`
+* `Cash` has the highest average total sales of `20.37`
+* `Kitchen`, `meat` and `seafood` are the top three product categories by total sales amount of `14,456.65`, `14,102.31` and `10754.81` respectively
+* `Fruit` & `vegetables` are the top 2 bought product categories by quantity sold
+
+Base on the hypothesis test
+* You cannot conclude at the 5% significance level that There is a difference in the average sale amount between customers who use credit cards and customers who use cash.
+* You can conclude at the 5% significance level that the `mean estimated_stock_pct` of products with sale activities is greater than  the mean `estimated_stock_pct` of products without sale activities at specific time of the day.
+
+The final model gave `mean absolute error` (MAE) of 0.2195 which suggests that, on average, the model's predictions are off from the actual values by approximately 0.2195 units. We found out that `unit_price`, `temperature`, `total`, and `hour` of the day were more important in predicting stock level. We recommend that the the dataset needs to be further engineered, or more datasets need to be added.
+
+In conclusion, we have been able to achieved our 2 main goals and have also tested our inital hypothesis.
 <br>
 
 ## Certificate<a name="cf"></a> 

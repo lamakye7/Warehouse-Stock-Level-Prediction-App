@@ -25,7 +25,7 @@ More details about the program can be assessed [here](https://www.theforage.com/
 
 	```python
 
-	conda create --name env-name python==3.7
+	conda create --name env-name python==3.11
 	```
 3. Now install the packages from the requirements.txt file. Make sure you're in folder that has the file.
 

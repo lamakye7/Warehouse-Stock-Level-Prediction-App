@@ -10,12 +10,21 @@ More details about the program can be assessed [here](https://www.theforage.com/
 <br>
 
 ## Table of Contents
-* [Installing Packages](#ip)
+* [What is this Repo About?](#what)
+* [How to Run this Code](#ip)
 * [Business Problem](#bp)
 * [File Description](#fd)
 * [Methodology](#md)
 * [Results](#re)
 * [Certificate](#cf)
+
+## What is this Repo About?](#<a name="what"></a>  
+This repository shows how to
+
+* build to machine learning model using RandomForestRegressor for predicting warehouse stock level
+
+The final app is publicly deployed on Streamlit Cloud 👉🏽 [click here](https://paulescu-real-time-ohlc-with-bytewax.streamlit.app/)
+
 
 ## Installing Packages<a name="ip"></a>
 <p style='text-align:justify;'>To run the jupyter notebook on your localhost, I recommend you install the packages I used for this project.</p>

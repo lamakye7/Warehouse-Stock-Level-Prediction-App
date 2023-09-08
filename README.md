@@ -18,7 +18,7 @@ More details about the program can be assessed [here](https://www.theforage.com/
 * [Results](#re)
 * [Certificate](#cf)
 
-## What is this Repo About?](#<a name="what"></a>  
+## What is this Repo About?<a name="what"></a>  
 This repository shows how to
 
 * build to machine learning model using RandomForestRegressor for predicting warehouse stock level

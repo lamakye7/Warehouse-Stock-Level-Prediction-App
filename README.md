@@ -20,7 +20,7 @@ More details about the program can be assessed [here](https://www.theforage.com/
 ## What is this Repo About<a name="what"></a>  
 This repository contains one Jupyter notebook that has all the code for data cleansing, EDA and machine learning, and a python script that contains code for the deployment of the model
 
-The final app is publicly deployed on Streamlit Cloud 👉🏽 [click here](https://paulescu-real-time-ohlc-with-bytewax.streamlit.app/)
+The final app is publicly deployed on Streamlit Cloud 👉🏽 [click here](https://warehouse-stock-level-prediction-app-exhz93bydwp2mrpp8imuae.streamlit.app/)
 
 
 ## How to Run this Code<a name="ip"></a>

@@ -13,15 +13,12 @@ More details about the program can be assessed [here](https://www.theforage.com/
 * [What is this Repo About?](#what)
 * [How to Run this Code](#ip)
 * [Business Problem](#bp)
-* [File Description](#fd)
 * [Methodology](#md)
 * [Results](#re)
 * [Certificate](#cf)
 
 ## What is this Repo About<a name="what"></a>  
-This repository shows how to
-
-* build to machine learning model using RandomForestRegressor for predicting warehouse stock level
+This repository contains one Jupyter notebook that has all the code for data cleansing, EDA and machine learning, and a python script that contains code for the deployment of the model
 
 The final app is publicly deployed on Streamlit Cloud 👉🏽 [click here](https://paulescu-real-time-ohlc-with-bytewax.streamlit.app/)
 
@@ -68,12 +65,6 @@ The final app is publicly deployed on Streamlit Cloud 👉🏽 [click here](http
 	</ol>
 </details>
 
-<br>
-
-## File Description <a name="fd"></a>
-This repository contains one Jupyter notebook that has all the code for data cleansing, EDA and machine learning. There is also a python script that contains code for the deployment of ml model. Finally, there is a pickle file which is the trained model.
-
-<br>
 
 ## Methodology<a name="md"></a>
 

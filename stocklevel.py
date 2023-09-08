@@ -10,7 +10,7 @@ import pickle
 import streamlit as st
 
 # loading the save model
-model = pickle.load(open("C:/Users/LENOVO/Desktop/Stock Level Prediction/stock_level_prediction.pkl",'rb'))
+model = pickle.load(open('stock_level_prediction.pkl', ,'rb'))
 
 def main():
     # giving a title

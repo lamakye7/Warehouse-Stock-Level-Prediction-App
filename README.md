@@ -151,7 +151,7 @@ Base on the hypothesis test
 * You cannot conclude at the 5% significance level that There is a difference in the average sale amount between customers who use credit cards and customers who use cash.
 * You can conclude at the 5% significance level that the `mean estimated_stock_pct` of products with sale activities is greater than  the mean `estimated_stock_pct` of products without sale activities at specific time of the day.
 
-The final model gave `mean absolute error` (MAE) of 0.2195 which suggests that, on average, the model's predictions are off from the actual values by approximately 0.2195 units. I found out that `unit_price`, `temperature`, `total`, and `hour` of the day were more important in predicting stock level. I recommend that the the dataset needs to be further engineered, or more datasets need to be added.
+The final model gave `mean absolute error` (MAE) of 0.227 which suggests that, on average, the model's predictions are off from the actual values by approximately 0.227 units. I found out that `unit_price`, `temperature` and  `total`, have strong influence on the model's prediction for stock level. I recommend that the the dataset needs to be further engineered, or more datasets need to be added.
 
 In conclusion, I have been able to achieved the 2 main goals and have also tested the inital hypothesis.
 <br>
